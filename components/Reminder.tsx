@@ -1,0 +1,55 @@
+'use client'
+
+import Image from 'next/image'
+import React from 'react'
+
+const Reminder = () => {
+  const handleAddToGoogleCalendar = () => {
+    const eventTitle = 'Wedding Reminder'
+    const eventDescription = 'Join us for the wedding celebration!'
+    const eventLocation = 'Bhopal, Madhya Pradesh'
+    const startDate = '20250222T033000Z' // Format: YYYYMMDDTHHMMSSZ
+    const endDate = '20250224T180000Z' // Format: YYYYMMDDTHHMMSSZ
+
+    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+      eventTitle
+    )}&details=${encodeURIComponent(
+      eventDescription
+    )}&location=${encodeURIComponent(
+      eventLocation
+    )}&dates=${startDate}/${endDate}`
+
+    window.open(googleCalendarUrl, '_blank')
+  }
+
+  return (
+    <div className='bg-white p-6 text-center flex flex-col space-y-6 text-black'>
+      <div className='mx-auto'>
+        <Image
+          width='75'
+          height='72'
+          src='/rose/pink-rose.png'
+          alt='Pink Rose'
+          className='mx-auto w-20 h-20'
+        />
+      </div>
+      <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
+      <div className='flex flex-col space-y-1 font-playfair'>
+        <div>Smt. Rubika Dewan</div>
+        <div>M. 7247373248</div>
+      </div>
+      <div className='flex flex-col space-y-1 font-playfair'>
+        <div>Smt. Chitrangdha Nag</div>
+        <div>M. 9827948992</div>
+      </div>
+      <button
+        onClick={handleAddToGoogleCalendar}
+        className='bg-[#E0B278] hover:bg-white max-w-max mx-auto justify-center px-3 py-2 rounded-full text-sm hover:border-4 hover:border-[#E0B278] border-4 border-white hover:text-[#E0B278] text-white'
+      >
+        SEND ME A REMINDER
+      </button>
+    </div>
+  )
+}
+
+export default Reminder

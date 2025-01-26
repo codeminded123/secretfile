@@ -14,29 +14,22 @@ const eventImage = [
 export default function Events() {
   return (
     <div
-      id='events'
-      className='text-center bg-white space-y-9 flex flex-col p-8 md:p-16 mx-auto text-black'
+      className='text-center bg-white space-y-9 flex flex-col mx-auto text-black'
+      style={{
+        backgroundImage: "url('/background/red-carpet.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
     >
-      <div className='mx-auto'>
-        <Image
-          width='150'
-          height='150'
-          src='/rose/brown-couple.jpeg'
-          alt='Pink Rose'
-          className='mx-auto w-35 h-35'
-        />
-      </div>
-      <h2 className='text-6xl italic font-semibold font-tangerine'>
-        Wedding Events
-      </h2>
       <div className='mx-auto space-y-3'>
         {eventImage.map((image, index) => (
           <Image
             key={index}
             src={image}
             alt={`Event ${index + 1}`}
-            width={1000} // Adjust width as needed
-            height={500} // Adjust height as needed
+            width={1000}
+            height={500}
             className='w-full h-full border-2 border-black'
           />
         ))}

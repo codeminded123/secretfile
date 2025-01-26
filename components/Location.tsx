@@ -7,7 +7,7 @@ import MapWithLocation from './MapWithLocation'
 export default function Location() {
   return (
     <div id='venuw' className='py-6 bg-white'>
-      <div className='bg-[#783c4a]' data-negative='false'>
+      <div className='bg-[#990000]' data-negative='false'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 1000 100'
@@ -22,7 +22,7 @@ export default function Location() {
           />
           <path
             className='elementor-shape-fill'
-            fill='#debfc6'
+            fill='#FFABAB'
             opacity='0.66'
             d='M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z'
           />
@@ -33,15 +33,14 @@ export default function Location() {
           />
         </svg>
       </div>
-      <div className='bg-[#783c4a] text-black flex flex-col space-y-9'>
+      <div className='bg-[#990000] text-black flex flex-col space-y-9'>
         <div className='mx-auto'>
           <Image
             decoding='async'
-            width='75'
-            height='72'
-            src='/rose/white-rose.png'
-            className='attachment-large size-large wp-image-12006'
-            alt='white-rose'
+            width='100'
+            height='100'
+            src='/new-logos/loc.png'
+            alt='Our Wedding and Sangeet Venue'
           />
         </div>
         <h2 className='text-4xl md:text-5xl px-3 text-balance italic text-center font-tangerine font-semibold'>
@@ -62,7 +61,7 @@ export default function Location() {
         <MapWithLocation />
         <Link
           href='https://maps.app.goo.gl/jiu2EnpFYsjHA7iW7'
-          className='bg-[#E0B278] hover:bg-white max-w-max mx-auto justify-center px-3 py-2 rounded-full text-sm hover:border-4 hover:border-[#E0B278] border-4 border-white hover:text-[#E0B278] text-white'
+          className='bg-[#FFABAB] hover:bg-white max-w-max mx-auto justify-center px-3 py-2 rounded-full text-sm hover:border-4 hover:border-[#FFABAB] border-4 border-white hover:text-[#FFABAB] text-white'
         >
           GET DIRECTIONS
         </Link>
@@ -82,13 +81,13 @@ export default function Location() {
           />
           <path
             className='elementor-shape-fill'
-            fill='#debfc6'
+            fill='#FFABAB'
             opacity='0.66'
             d='M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z'
           />
           <path
             className='elementor-shape-fill'
-            fill='#783c4a'
+            fill='#990000'
             d='M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z'
           />
         </svg>

@@ -41,27 +41,27 @@ const Countdown: React.FC = () => {
   }, [targetDate])
 
   return (
-    <div className='flex flex-col items-center space-y-4 p-6 bg-gray-100'>
+    <div className='flex flex-col items-center space-y-4 p-6 bg-[#FFABAB]'>
       <h1 className='text-xl md:text-3xl text-center text-amber-950 font-bold font-tangerine'>
         OUR FOREVER STARTS IN
       </h1>
-      <div className='w-screen flex items-center text-[#d64c33]'>
+      <div className='w-screen flex items-center text-[#990000]'>
         <div className='flex justify-evenly w-full text-center'>
           <div>
             <p className='text-3xl md:text-7xl font-bold'>{timeLeft.days}</p>
-            <p className='text-lg md:text-2xl text-gray-400'>Days</p>
+            <p className='text-lg md:text-2xl text-black'>Days</p>
           </div>
           <div>
             <p className='text-3xl md:text-7xl font-bold'>{timeLeft.hours}</p>
-            <p className='text-lg md:text-2xl text-gray-400'>Hours</p>
+            <p className='text-lg md:text-2xl text-black'>Hours</p>
           </div>
           <div>
             <p className='text-3xl md:text-7xl font-bold'>{timeLeft.minutes}</p>
-            <p className='text-lg md:text-2xl text-gray-400'>Minutes</p>
+            <p className='text-lg md:text-2xl text-black'>Minutes</p>
           </div>
           <div>
             <p className='text-3xl md:text-7xl font-bold'>{timeLeft.seconds}</p>
-            <p className='text-lg md:text-2xl text-gray-400'>Seconds</p>
+            <p className='text-lg md:text-2xl text-black'>Seconds</p>
           </div>
         </div>
       </div>

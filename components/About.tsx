@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div id='ourwedding'>
-      <section id='wedding' className='py-16 bg-white text-black'>
+      <section id='wedding' className='py-8 md:py-16 bg-white text-black'>
         <div className='container mx-auto text-center font-cormorant'>
           <div className='mb-8'>
             <Image
@@ -16,7 +16,9 @@ export default function About() {
               className='mx-auto w-35 h-35'
             />
           </div>
-          <h2 className='text-3xl font-bold mb-4'>Our Wedding</h2>
+          <h2 className='text-3xl font-bold mb-4 text-[#990000]'>
+            Our Wedding
+          </h2>
           <h2 className='text-xl mb-4 px-3 text-balance justify-center'>
             Excitement fills our hearts, both from us and our families, as we
             extend a warm invitation for you to be a part of the upcoming
@@ -24,15 +26,22 @@ export default function About() {
             meaningful, and we would be delighted to have you join us on our
             special day❤
           </h2>
-          <h2 className='text-xl font-semibold mb-4'>
+          {/* <h2 className='text-xl font-semibold mb-4 text-[#f06b6b]'>
             Monday, 24 February, 2025
-          </h2>
+          </h2> */}
+          <Image
+            src='/new-logos/date.png'
+            width={250}
+            height={250}
+            className='mx-auto'
+            alt='Date'
+          />
           <h2 className='text-xl mb-4'>
             Witness the beginning of our forever in
           </h2>
         </div>
       </section>
-      <div className='bg-[#783c4a]' data-negative='false'>
+      <div className='bg-[#990000]' data-negative='false'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 1000 100'
@@ -47,7 +56,7 @@ export default function About() {
           />
           <path
             className='elementor-shape-fill'
-            fill='#debfc6'
+            fill='#FFABAB'
             opacity='0.66'
             d='M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z'
           />
@@ -58,30 +67,42 @@ export default function About() {
           />
         </svg>
       </div>
-      <div className='bg-[#783c4a] text-center font-semibold font-playfair text-black flex flex-col space-y-9 p-16'>
-        <h2 className='text-5xl italic font-lovelight'>Kanika</h2>
+      <div className='bg-[#990000] text-center font-semibold font-playfair text-black flex flex-col space-y-9 p-16'>
+        {/* <h2 className='text-5xl italic font-lovelight'>Kanika</h2> */}
+        <Image
+          src='/new-logos/kanika.png'
+          width={200}
+          height={200}
+          alt='Kanika'
+          className='mx-auto'
+        />
         <div className='text-xl'>
-          D/O : Mrs Rubika Dewan and Mr. Sunil kumar
-          <br />
           G/D : Late Smt. Devika Rai & Late Shri Bhim Bahadur Dewan
+          <br />
+          D/O : Mrs Rubika Dewan and Mr. Sunil kumar
           <br />( Bhopal )
         </div>
         <h2 className=''>Weds</h2>
-        <h2 className='text-5xl italic font-lovelight'>Harsh</h2>
+        {/* <h2 className='text-5xl italic font-lovelight'>Harsh</h2> */}
+        <Image
+          src='/new-logos/harsh.png'
+          width={200}
+          height={200}
+          alt='Kanika'
+          className='mx-auto'
+        />
         <div className='text-xl'>
-          S/O : Smt. Ratna & Late Shri Diwakar Sinha
-          <br />
           G/S : Late Smt. Kusumlata & Late Shri Binod Bihari Sinha
+          <br />
+          S/O : Smt. Ratna & Late Shri Diwakar Sinha
           <br />( Dehri-on-Sone )
         </div>
         <div className='mx-auto'>
           <Image
-            decoding='async'
-            width='75'
-            height='72'
-            src='/rose/white-rose.png'
-            className='attachment-large size-large wp-image-12006'
-            alt='white-rose'
+            width='600'
+            height='300'
+            src='/new-logos/join.png'
+            alt='join'
           />
         </div>
         <h2 className='text-3xl italic font-semibold font-corinthia'>
@@ -94,7 +115,7 @@ export default function About() {
           Photos in our Gallery section
         </h2>
       </div>
-      <div className='bg-white' data-negative='false'>
+      <div className='bg-[#CDB5B4]' data-negative='false'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 1000 100'
@@ -109,13 +130,13 @@ export default function About() {
           />
           <path
             className='elementor-shape-fill'
-            fill='#debfc6'
+            fill='#FFABAB'
             opacity='0.66'
             d='M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z'
           />
           <path
             className='elementor-shape-fill'
-            fill='#783c4a'
+            fill='#990000'
             d='M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z'
           />
         </svg>

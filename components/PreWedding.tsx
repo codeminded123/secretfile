@@ -10,15 +10,15 @@ export default function PreWedding() {
     <div className='bg-white space-y-6 p-5'>
       <div className='mx-auto'>
         <Image
-          width='75'
-          height='72'
-          src='/rose/pink-rose.png'
+          width='200'
+          height='200'
+          src='/rose/brown-couple.jpeg'
           alt='Pink Rose'
-          className='mx-auto w-20 h-20'
+          className='mx-auto w-35 h-35'
         />
       </div>
-      <h1 className='text-4xl md:text-5xl italic text-center text-amber-950 font-bold font-tangerine'>
-        Our Pre Wedding Teaser
+      <h1 className='text-4xl md:text-5xl italic text-center text-[#990000] font-bold font-tangerine'>
+        Our Pre-Wedding Teaser
       </h1>
       <div className=''>
         <div className='border-2 border-black flex flex-col items-center justify-center w-full'>

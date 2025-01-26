@@ -43,14 +43,14 @@ export default function Moments() {
     <div className='bg-white space-y-6'>
       <div className='mx-auto'>
         <Image
-          width='75'
-          height='72'
-          src='/rose/pink-rose.png'
-          alt='Pink Rose'
-          className='mx-auto w-20 h-20'
+          width='150'
+          height='150'
+          src='/new-logos/moments.png'
+          alt='Our Beautiful Moments'
+          className='mx-auto w-35 h-35'
         />
       </div>
-      <h1 className='text-4xl md:text-5xl px-3 text-balance italic text-center text-amber-950 font-bold font-tangerine'>
+      <h1 className='text-4xl md:text-5xl px-3 text-balance italic text-center text-[#990000] font-bold font-tangerine'>
         Our Beautiful Moments
       </h1>
       <div className='relative w-full p-3'>

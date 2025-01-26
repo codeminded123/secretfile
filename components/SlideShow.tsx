@@ -59,13 +59,13 @@ const Slideshow: React.FC = () => {
           height={1000} // Full height for mobile
           className='object-cover' // Ensures the image covers the container
         />
-        <div className='absolute top-0 left-0 right-0 text-center text-white text-xl font-bold bg-black bg-opacity-50'>
+        <div className='absolute top-0 left-0 right-0 text-center text-white text-lg font-bold'>
           || Shree Ganeshaye Namah ||
           <Image
             src='/ganeshji.png'
             alt='Ganesh Ji'
-            width={50}
-            height={50}
+            width={45}
+            height={45}
             className='z-50 mx-auto'
           />
         </div>

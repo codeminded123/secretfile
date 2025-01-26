@@ -34,17 +34,39 @@ const Reminder = () => {
         />
       </div>
       <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
-      <div className='flex flex-col space-y-1 font-playfair'>
-        <div>Smt. Rubika Dewan</div>
-        <div>M. 7247373248</div>
+      <div className='flex flex-row items-center mx-auto space-x-6'>
+        <div className='w-40 h-40 overflow-hidden rounded-full'>
+          <Image
+            src='/new-logos/invitee1.jpg'
+            width={160}
+            height={160}
+            alt='Kanika'
+            className='object-cover'
+          />
+        </div>
+        <div className='flex flex-col space-y-1 font-playfair font-[550]'>
+          <div>Smt. Rubika Dewan</div>
+          <div>M. 7247373248</div>
+        </div>
       </div>
-      <div className='flex flex-col space-y-1 font-playfair'>
-        <div>Smt. Tanisha Nag</div>
-        <div>M. 9827948992</div>
+      <div className='flex flex-row items-center mx-auto space-x-6'>
+        <div className='w-40 h-40 overflow-hidden rounded-full'>
+          <Image
+            src='/new-logos/invitee2.jpg'
+            width={160}
+            height={160}
+            alt='Kanika'
+            className='object-cover'
+          />
+        </div>
+        <div className='flex flex-col space-y-1 font-playfair font-[550]'>
+          <div>Smt. Tanisha Nag</div>
+          <div>M. 9827948992</div>
+        </div>
       </div>
       <button
         onClick={handleAddToGoogleCalendar}
-        className='bg-[#E0B278] hover:bg-white max-w-max mx-auto justify-center px-3 py-2 rounded-full text-sm hover:border-4 hover:border-[#E0B278] border-4 border-white hover:text-[#E0B278] text-white'
+        className='bg-[#FFABAB] hover:bg-white max-w-max mx-auto justify-center px-3 py-2 rounded-full text-sm hover:border-4 hover:border-[#FFABAB] border-4 border-white hover:text-[#FFABAB] text-white'
       >
         SEND ME A REMINDER
       </button>

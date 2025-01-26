@@ -26,11 +26,11 @@ const Reminder = () => {
     <div className='bg-white p-6 text-center flex flex-col space-y-6 text-black'>
       <div className='mx-auto'>
         <Image
-          width='75'
-          height='72'
-          src='/rose/pink-rose.png'
+          width='150'
+          height='150'
+          src='/rose/couple.jpeg'
           alt='Pink Rose'
-          className='mx-auto w-20 h-20'
+          className='mx-auto w-35 h-35'
         />
       </div>
       <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
@@ -39,7 +39,7 @@ const Reminder = () => {
         <div>M. 7247373248</div>
       </div>
       <div className='flex flex-col space-y-1 font-playfair'>
-        <div>Smt. Chitrangdha Nag</div>
+        <div>Smt. Tanisha Nag</div>
         <div>M. 9827948992</div>
       </div>
       <button

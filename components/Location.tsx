@@ -44,7 +44,7 @@ export default function Location() {
             alt='white-rose'
           />
         </div>
-        <h2 className='text-5xl italic text-center font-tangerine font-semibold'>
+        <h2 className='text-4xl md:text-5xl px-3 text-balance italic text-center font-tangerine font-semibold'>
           Our Wedding and Sangeet Venue
         </h2>
         <Image

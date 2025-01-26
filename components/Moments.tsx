@@ -50,7 +50,7 @@ export default function Moments() {
           className='mx-auto w-20 h-20'
         />
       </div>
-      <h1 className='text-5xl italic text-center text-amber-950 font-bold font-tangerine'>
+      <h1 className='text-4xl md:text-5xl px-3 text-balance italic text-center text-amber-950 font-bold font-tangerine'>
         Our Beautiful Moments
       </h1>
       <div className='relative w-full p-3'>

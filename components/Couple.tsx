@@ -42,7 +42,7 @@ export default function Couple() {
             alt='white rose'
           />
         </div>
-        <h2 className='text-6xl text-center italic font-semibold font-tangerine'>
+        <h2 className='text-5xl lg:text-6xl px-3 text-center italic font-semibold font-tangerine'>
           Meet the lovely couple
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-0 md:px-6'>

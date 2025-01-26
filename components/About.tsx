@@ -17,7 +17,7 @@ export default function About() {
             />
           </div>
           <h2 className='text-3xl font-bold mb-4'>Our Wedding</h2>
-          <h2 className='text-xl mb-4'>
+          <h2 className='text-xl mb-4 px-3 text-balance justify-center'>
             Excitement fills our hearts, both from us and our families, as we
             extend a warm invitation for you to be a part of the upcoming
             chapter in our shared journey! Your presence has been incredibly

@@ -43,7 +43,7 @@ const Slideshow: React.FC = () => {
             className='z-50 mx-auto'
           />
         </div>
-        <div className='opacity-50 italic font-greatVibes absolute inset-x-0 bottom-0 flex flex-col space-y-4 items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50 py-3'>
+        <div className='opacity-50 font-lovelight absolute inset-x-0 bottom-0 flex flex-col space-y-4 items-center justify-center text-white text-6xl font-bold py-3'>
           <h3>Kanika & Harsh</h3>
           <h3 className='font-semibold'>#KAnHA</h3>
         </div>
@@ -69,7 +69,7 @@ const Slideshow: React.FC = () => {
             className='z-50 mx-auto'
           />
         </div>
-        <div className='opacity-80 italic font-greatVibes absolute inset-x-0 bottom-0 flex flex-col space-y-3 items-center justify-center text-white text-3xl font-bold py-3'>
+        <div className='opacity-80 font-lovelight absolute inset-x-0 bottom-0 flex flex-col space-y-3 items-center justify-center text-white text-3xl font-bold py-3'>
           <h3>Kanika & Harsh</h3>
           <h3 className='font-semibold'>#KAnHA</h3>
         </div>

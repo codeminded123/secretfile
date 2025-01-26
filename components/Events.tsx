@@ -19,11 +19,11 @@ export default function Events() {
     >
       <div className='mx-auto'>
         <Image
-          decoding='async'
-          width='75'
-          height='72'
-          src='/rose/pink-rose.png'
+          width='150'
+          height='150'
+          src='/rose/brown-couple.jpeg'
           alt='Pink Rose'
+          className='mx-auto w-35 h-35'
         />
       </div>
       <h2 className='text-6xl italic font-semibold font-tangerine'>

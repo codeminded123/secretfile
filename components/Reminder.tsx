@@ -33,35 +33,37 @@ const Reminder = () => {
           className='mx-auto w-35 h-35'
         />
       </div>
-      <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
-      <div className='flex flex-row items-center mx-auto space-x-6'>
-        <div className='w-40 h-40 overflow-hidden rounded-full'>
-          <Image
-            src='/new-logos/invitee1.jpg'
-            width={160}
-            height={160}
-            alt='Kanika'
-            className='object-cover'
-          />
+      <div id='invitee' className='mx-auto'>
+        <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
+        <div className='flex flex-row items-center mx-auto space-x-6'>
+          <div className='w-40 h-40 overflow-hidden rounded-full'>
+            <Image
+              src='/new-logos/invitee1.jpg'
+              width={160}
+              height={160}
+              alt='Kanika'
+              className='object-cover'
+            />
+          </div>
+          <div className='flex flex-col space-y-1 font-playfair font-[550]'>
+            <div>Smt. Rubika Dewan</div>
+            <div>M. 7247373248</div>
+          </div>
         </div>
-        <div className='flex flex-col space-y-1 font-playfair font-[550]'>
-          <div>Smt. Rubika Dewan</div>
-          <div>M. 7247373248</div>
-        </div>
-      </div>
-      <div className='flex flex-row items-center mx-auto space-x-6'>
-        <div className='w-40 h-40 overflow-hidden rounded-full'>
-          <Image
-            src='/new-logos/invitee2.jpg'
-            width={160}
-            height={160}
-            alt='Kanika'
-            className='object-cover'
-          />
-        </div>
-        <div className='flex flex-col space-y-1 font-playfair font-[550]'>
-          <div>Smt. Tanisha Nag</div>
-          <div>M. 9827948992</div>
+        <div className='flex flex-row items-center mx-auto space-x-6'>
+          <div className='w-40 h-40 overflow-hidden rounded-full'>
+            <Image
+              src='/new-logos/invitee2.jpg'
+              width={160}
+              height={160}
+              alt='Kanika'
+              className='object-cover'
+            />
+          </div>
+          <div className='flex flex-col space-y-1 font-playfair font-[550]'>
+            <div>Smt. Tanisha Nag</div>
+            <div>M. 9827948992</div>
+          </div>
         </div>
       </div>
       <button

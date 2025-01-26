@@ -40,6 +40,13 @@ export default function MobileDrawer({ isOpen, onClose }: any) {
           </Link>
           <Link
             className='py-3 px-5 border-gray-500 border-b-[0.5px] hover:bg-gray-700 hover:text-white'
+            href='#moments'
+            onClick={onClose}
+          >
+            Moments
+          </Link>
+          <Link
+            className='py-3 px-5 border-gray-500 border-b-[0.5px] hover:bg-gray-700 hover:text-white'
             href='#guestwishes'
             onClick={onClose}
           >
@@ -58,6 +65,13 @@ export default function MobileDrawer({ isOpen, onClose }: any) {
             onClick={onClose}
           >
             Wedding Venue
+          </Link>
+          <Link
+            className='py-3 px-5 border-gray-500 border-b-[0.5px] hover:bg-gray-700 hover:text-white'
+            href='#invitee'
+            onClick={onClose}
+          >
+            Invitee
           </Link>
         </li>
       </ul>

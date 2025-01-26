@@ -40,7 +40,7 @@ export default function Moments() {
     return visibleImages
   }
   return (
-    <div className='bg-white space-y-6'>
+    <div id='moments' className='bg-white space-y-6'>
       <div className='mx-auto'>
         <Image
           width='150'

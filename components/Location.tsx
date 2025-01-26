@@ -45,7 +45,7 @@ export default function Location() {
           />
         </div>
         <h2 className='text-5xl italic text-center font-tangerine font-semibold'>
-          Our Wedding Venue
+          Our Wedding and Sangeet Venue
         </h2>
         <Image
           className='mx-auto'

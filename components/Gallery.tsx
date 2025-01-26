@@ -11,11 +11,11 @@ export default function Gallery() {
     >
       <div className='mx-auto'>
         <Image
-          width='75'
-          height='72'
-          src='/rose/pink-rose.png'
+          width='200'
+          height='200'
+          src='/rose/brown-couple.jpeg'
           alt='Pink Rose'
-          className='mx-auto w-20 h-20'
+          className='mx-auto w-35 h-35'
         />
       </div>
       <div className='text-6xl italic font-corinthia font-bold'>Gallery</div>

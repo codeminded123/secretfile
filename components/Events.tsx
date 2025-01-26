@@ -3,12 +3,12 @@
 import Image from 'next/image'
 
 const eventImage = [
-  '/events/image1.jpeg',
+  '/events/image1.jpg',
   '/events/image2.jpg',
-  '/events/image3.jpeg',
+  '/events/image3.jpg',
   '/events/image4.jpg',
-  '/events/image5.jpeg',
-  '/events/image6.jpeg',
+  '/events/image5.jpg',
+  '/events/image6.jpg',
 ]
 
 export default function Events() {

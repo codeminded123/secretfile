@@ -29,7 +29,7 @@ export default function Home() {
             className='mx-auto w-35 h-35'
           />
         </div>
-        <h2 className='text-6xl italic font-semibold font-tangerine'>
+        <h2 className='text-4xl md:text-5xl lg:text-6xl italic font-semibold font-tangerine'>
           Wedding Events
         </h2>
       </div>

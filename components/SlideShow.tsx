@@ -36,7 +36,7 @@ const Slideshow: React.FC = () => {
         <div className='font-cormorant absolute top-0 left-0 right-0 text-center text-white text-xl font-bold py-3 bg-opacity-50'>
           || Shree Ganeshaye Namah ||
         </div>
-        <div className='font-lovelight absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-3xl font-bold bg-black bg-opacity-50'>
+        <div className='font-lovelight absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50'>
           <h3>Kanika & Harsh</h3>
           <h3>#KAnHA</h3>
         </div>
@@ -55,7 +55,7 @@ const Slideshow: React.FC = () => {
         <div className='absolute top-0 left-0 right-0 text-center text-white text-xl font-bold bg-black bg-opacity-50'>
           || Shree Ganeshaye Namah ||
         </div>
-        <div className='absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-xl font-bold bg-black bg-opacity-50'>
+        <div className='absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50'>
           <h3>Kanika & Harsh</h3>
           <h3>#KAnHA</h3>
         </div>

@@ -35,10 +35,17 @@ const Slideshow: React.FC = () => {
         />
         <div className='font-cormorant absolute top-0 left-0 right-0 text-center text-white text-xl font-bold py-3 bg-opacity-50'>
           || Shree Ganeshaye Namah ||
+          <Image
+            src='/ganeshji.png'
+            alt='Ganesh Ji'
+            width={50}
+            height={50}
+            className='z-50 mx-auto'
+          />
         </div>
-        <div className='font-lovelight absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50'>
+        <div className='opacity-50 font-greatVibes absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50'>
           <h3>Kanika & Harsh</h3>
-          <h3>#KAnHA</h3>
+          <h3 className='font-semibold'>#KAnHA</h3>
         </div>
       </div>
 
@@ -54,10 +61,17 @@ const Slideshow: React.FC = () => {
         />
         <div className='absolute top-0 left-0 right-0 text-center text-white text-xl font-bold bg-black bg-opacity-50'>
           || Shree Ganeshaye Namah ||
+          <Image
+            src='/ganeshji.png'
+            alt='Ganesh Ji'
+            width={50}
+            height={50}
+            className='z-50 mx-auto'
+          />
         </div>
-        <div className='font-lovelight absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-3xl font-bold bg-black bg-opacity-50'>
+        <div className='opacity-50 font-greatVibes absolute inset-0 flex flex-col space-y-4 items-center justify-center text-white text-3xl font-bold bg-black bg-opacity-50'>
           <h3>Kanika & Harsh</h3>
-          <h3>#KAnHA</h3>
+          <h3 className='font-semibold'>#KAnHA</h3>
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@ export default {
         tangerine: ['Tangerine', 'serif'], //italic
         corinthia: ['Corinthia', 'cursive'], //italic
         lovelight: ['Love Light', 'cursive'], //italic
+        greatVibes: ['Great Vibes', 'cursive'], //italic
       },
     },
   },

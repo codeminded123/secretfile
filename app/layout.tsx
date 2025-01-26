@@ -32,6 +32,9 @@ export default function RootLayout({
           <Header />
         </div>
         {children}
+        <div className='text-center mx-auto bottom-0 left-0 w-full z-50 bg-black text-white'>
+          Made by Disha Dutta
+        </div>
       </body>
     </html>
   )

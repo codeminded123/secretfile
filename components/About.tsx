@@ -9,11 +9,11 @@ export default function About() {
         <div className='container mx-auto text-center font-cormorant'>
           <div className='mb-8'>
             <Image
-              width='75'
-              height='72'
-              src='/rose/pink-rose.png'
+              width='150'
+              height='150'
+              src='/rose/brown-couple.jpeg'
               alt='Pink Rose'
-              className='mx-auto w-20 h-20'
+              className='mx-auto w-35 h-35'
             />
           </div>
           <h2 className='text-3xl font-bold mb-4'>Our Wedding</h2>
@@ -61,18 +61,18 @@ export default function About() {
       <div className='bg-[#783c4a] text-center font-semibold font-playfair text-black flex flex-col space-y-9 p-16'>
         <h2 className='text-5xl italic font-lovelight'>Kanika</h2>
         <div className='text-xl'>
-          G/D : Late Smt. Devika Rai & Late Shri Bhim Bahadur Dewan
-          <br />
           D/O : Mrs Rubika Dewan and Mr. Sunil kumar
+          <br />
+          G/D : Late Smt. Devika Rai & Late Shri Bhim Bahadur Dewan
           <br />( Bhopal )
         </div>
-        <h2 className=''>With</h2>
+        <h2 className=''>Weds</h2>
         <h2 className='text-5xl italic font-lovelight'>Harsh</h2>
         <div className='text-xl'>
-          G/S : Late Smt. Kusumlata & Late Shri Binod Bihari Sinha
-          <br />
           S/O : Smt. Ratna & Late Shri Diwakar Sinha
-          <br />( Dehri )
+          <br />
+          G/S : Late Smt. Kusumlata & Late Shri Binod Bihari Sinha
+          <br />( Dehri-on-Sone )
         </div>
         <div className='mx-auto'>
           <Image

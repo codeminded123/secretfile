@@ -46,28 +46,28 @@ export default function Couple() {
           Meet the lovely couple
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-0 md:px-6'>
-          <div>
+          <div className='mx-auto px-3'>
             <h1 className='text-center text-4xl pb-3 font-bold italic font-lovelight'>
               Kanika
             </h1>
             <Image
-              className='w-[315px] h-[315px] md:w-[420px] md:h-[500px] mx-auto'
+              className='object-cover'
               src='/couple/image1.jpg'
               alt='Kanika'
-              height={100}
-              width={100}
+              width={500} // Adjust width as needed
+              height={300}
             />
           </div>
-          <div>
+          <div className='mx-auto px-3'>
             <h1 className='text-center text-4xl pb-3 font-bold italic font-lovelight'>
               Harsh
             </h1>
             <Image
-              className='w-[315px] h-[315px] md:w-[420px] md:h-[500px] mx-auto font-lovelight'
+              className='object-cover'
               src='/couple/image2.jpg'
               alt='Harsh'
-              height={1000}
-              width={1000}
+              width={500} // Adjust width as needed
+              height={300}
             />
           </div>
         </div>

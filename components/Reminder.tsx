@@ -35,7 +35,7 @@ const Reminder = () => {
       </div>
       <div id='invitee' className='mx-auto'>
         <div className='text-6xl italic font-bold font-tangerine'>Invitee</div>
-        <div className='flex flex-row items-center mx-auto space-x-6'>
+        <div className='flex flex-row items-center mx-auto space-x-6 py-3'>
           <div className='w-40 h-40 overflow-hidden rounded-full'>
             <Image
               src='/new-logos/invitee1.jpg'
@@ -50,7 +50,7 @@ const Reminder = () => {
             <div>M. 7247373248</div>
           </div>
         </div>
-        <div className='flex flex-row items-center mx-auto space-x-6'>
+        <div className='flex flex-row items-center mx-auto space-x-6 py-3'>
           <div className='w-40 h-40 overflow-hidden rounded-full'>
             <Image
               src='/new-logos/invitee2.jpg'

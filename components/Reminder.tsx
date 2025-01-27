@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Reminder = () => {
@@ -47,7 +48,7 @@ const Reminder = () => {
           </div>
           <div className='flex flex-col space-y-1 font-playfair font-[550]'>
             <div>Smt. Rubika Dewan</div>
-            <div>M. 7247373248</div>
+            <Link href='tel:7247373248'>M. 7247373248</Link>
           </div>
         </div>
         <div className='flex flex-row items-center mx-auto space-x-6 py-3'>
@@ -62,7 +63,7 @@ const Reminder = () => {
           </div>
           <div className='flex flex-col space-y-1 font-playfair font-[550]'>
             <div>Smt. Tanisha Nag</div>
-            <div>M. 9827948992</div>
+            <Link href='tel:9827948992'>M. 9827948992</Link>
           </div>
         </div>
       </div>
